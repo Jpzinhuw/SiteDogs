@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DogInfo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agradecimentos</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>
+            <a href="page2.html">Raças</a>
+            <a href="page3.html">Agradecimentos</a>
+        </nav>
+        <button id="dark-mode-btn">Modo Escuro</button>
+    </header>
+    
+    <main>
+        <!-- formulario caso o usuario queira entrar em contato por x razoes -->
+        <section class="contact-form">
+            <h2>Entre em Contato Conosco</h2>
+            <p>Caso ainda tenha restado alguma dúvida, fique a vontade para nos enviar uma mensagem no formulário abaixo!! Te esperamos lá!</p>
+            <form action="#" method="POST">
+                <label for="name">Seu Nome:</label>
+                <input type="text" id="name" name="name" placeholder="seu nome" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="seu e-mail" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" placeholder="mande sua mensagem" required></textarea>
+
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+
+        <!-- agracimentos -->
+        <section class="valeu-tmj">
+            <h2>Obrigado por visitar o DogInfo!</h2>
+            <p>Nós esperamos que você tenha aprendido alguma curiosidade sobre nossos queridos melhores amigos peludos e fofinhos!!</p>
+        </section>
+
+        <!-- imagens aleatorias -->
+        <section class="gallery">
+            <h3>Galeria de Imagens</h3>
+            <div class="gallery-images">
+                <img src="../friday/img/redonda.jpg" alt="a"> <!-- foto da minha cachorra que está levemente acima do peso... -->
+                <img src="../friday/img/aV7NMEK_700b.jpg" alt="b"><!-- doguinho caramelo -->
+                <img src="../friday/img/200w.gif" alt="c"> <!-- pratimonio cultural do Brasil. -->
+            </div>
+        </section>
+
+        <!-- Informações Adicionais -->
+        <section class="more-info">
+            <h3>Mais Sobre Nós</h3>
+            <p>No DogInfo, queremos que você tenha acesso às melhores informações sobre cachorros. Nosso objetivo é ajudar a melhorar a relação entre você e seu melhor amigo. Continue nos acompanhando para mais curiosidades, dicas e novidades!</p>
+        </section>
+
+
+    </main>
+    
+    <footer>
+        <p id="footer-text">2024 DogInfo. Alunos: João Pedro M. Mottin & Iago M. Bach.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
